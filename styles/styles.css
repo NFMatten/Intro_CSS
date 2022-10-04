@@ -72,9 +72,41 @@ color: #008ab4;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
+    align-items: stretch;
 }
 
 .stack-container{
     display: flex;
     flex-direction: column;
+}
+
+.green-viewport{
+    height: 100vh;
+    background-color: #92bf9e;
+}
+.red-viewport{
+    height: 100vh;
+    background-color: #cccc99;
+}
+
+.vh-bg{
+    height: 100vh;
+}
+
+.tile-bg{
+    height: 100vh;
+    background-image: url('/images/coffee.jpg');
+    background-repeat: repeat;
+}
+
+.fullscreen-bg{
+    height: 100vh;
+    background: url('/images/coffee.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.normalsize-bg{
+    height: 100vh;
+    background-image: url('/images/coffee.jpg');
+    background-repeat: no-repeat;
 }
