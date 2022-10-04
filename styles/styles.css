@@ -17,7 +17,64 @@ header{
 
 /* This will apply any included styles to the body element */
 body{
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3333;
 }
 
 /* Create your own classes below! */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #008ab4;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: #ffffff;
+text-align: center;
+padding: 14px 24px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: rgb(255, 255, 255);
+color: #008ab4;
+}
+
+.box-model{
+    width: 400px;
+    border: 1px solid;
+    border-radius: 2%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.blue-bg{
+    background-color: #008ab4;
+    color: #ffffff;
+    border-color: #333333
+}
+
+.grey-bg{
+    background-color: #c5c3c3;
+    color:#016381;
+    border-color: #333333
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.stack-container{
+    display: flex;
+    flex-direction: column;
+}
